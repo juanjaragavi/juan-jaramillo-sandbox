@@ -62,7 +62,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            News, articles, opinion and more about GenAI and Machine Learnng.
+            News, articles, opinions and more about GenAI and machine learning.
           </p>
         </a>
 
@@ -79,7 +79,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Prompts, AI consulting services, tools and more, all online.
+          Prompts, techniques, AI consulting services, tools and more, all online. Free and paid.
           </p>
         </a>
 
@@ -96,7 +96,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          Learn about AI With interactive courses with&nbsp;quizzes!
+          Learn about GenAI with webinars, interactive courses with&nbsp;quizzes and other resources.
           </p>
         </a>
       </div>
