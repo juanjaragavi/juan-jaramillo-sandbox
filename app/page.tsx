@@ -45,7 +45,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Llama 2 70B powered advanced chatbot by ZIONE Shop.
+            LLaMA2 70B powered advanced customer service chatbot by ZIONE Shop.
           </p>
         </a>
 
@@ -79,7 +79,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Prompts, AI Services and tools, all online.
+            Prompts, AI consulting services, tools and more, all online.
           </p>
         </a>
 
