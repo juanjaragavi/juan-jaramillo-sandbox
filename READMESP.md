@@ -1,6 +1,6 @@
 # ¡Hola! Soy Juan Jaramillo
 
-Soy un Ingeniero de Prompts, Experto en IA y Desarrollador Full-Stack que actualmente reside en Bogotá, Colombia. ¡Estoy listo para convertir tu proyecto de Inteligencia Artificial en realidad!
+Soy un Prompt Engineer, Machine Learning Engineer, Experto en IA y Desarrollador Full-Stack que actualmente reside en Bogotá, Colombia. ¡Estoy listo para convertir tu proyecto de Inteligencia Artificial en realidad!
 
 ## 👨🏻‍💻 Acerca de Mí:
 
