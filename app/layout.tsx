@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="league/spartan">{children}</body>
+      <body className="font-league-spartan">{children}</body>
     </html>
   )
 }
