@@ -1,5 +1,4 @@
 import Image from "next/image";
-import DomainStatusWidget from "./widgets/DomainStatusWidget";
 
 export default function Home() {
   return (
@@ -18,9 +17,6 @@ export default function Home() {
           >
             Go to <span className="text-pink-500">juanjaramillo.tech</span>
           </a>
-        </div>
-        <div>
-          <DomainStatusWidget />
         </div>
       </div>
 
