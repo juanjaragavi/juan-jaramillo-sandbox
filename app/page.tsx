@@ -1,16 +1,6 @@
 import Image from "next/image";
-import { useState, useEffect, Fragment } from "react";
 
 export default function Home() {
-  const [domainStatus, setDomainStatus] = useState({});
-
-  useEffect(() => {
-    // Fetch the health status of domains from the backend
-    fetch("https://api.juanjaramillo.tech/domains/")
-      .then((response) => response.json())
-      .then((data) => setDomainStatus(data));
-  }, []);
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -27,27 +17,6 @@ export default function Home() {
           >
             Go to <span className="text-pink-500">juanjaramillo.tech</span>
           </a>
-        </div>
-      </div>
-      <div className="fixed bottom-4 right-4 p-4 bg-white shadow-lg rounded-lg">
-        <div className="grid grid-cols-2 gap-4">
-          {Object.entries(domainStatus).map(([domain, status]) => (
-            <Fragment key={domain}>
-              <a
-                href={domain}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="truncate"
-              >
-                {new URL(domain).hostname}
-              </a>
-              <span
-                className={`h-4 w-4 rounded-full ${
-                  status === "Healthy" ? "bg-lime-500" : "bg-red-500"
-                }`}
-              ></span>
-            </Fragment>
-          ))}
         </div>
       </div>
 
