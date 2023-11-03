@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from "next/image";
+import DomainStatusWidget from "./widgets/DomainStatusWidget";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
           >
             Go to <span className="text-pink-500">juanjaramillo.tech</span>
           </a>
+        </div>
+        <div>
+          <DomainStatusWidget />
         </div>
       </div>
 
@@ -39,7 +43,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            ZIONE Chatbot{' '}
+            ZIONE Chatbot{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -56,7 +60,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            The AI Blog{' '}
+            The AI Blog{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -73,13 +77,14 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            AI Store{' '}
+            AI Store{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          Prompts, techniques, AI consulting services, tools and more, all online. Free and paid.
+            Prompts, techniques, AI consulting services, tools and more, all
+            online. Free and paid.
           </p>
         </a>
 
@@ -90,16 +95,17 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learning AI{' '}
+            Learning AI{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          Learn about GenAI with webinars, interactive courses with&nbsp;quizzes and other resources.
+            Learn about GenAI with webinars, interactive courses
+            with&nbsp;quizzes and other resources.
           </p>
         </a>
       </div>
     </main>
-  )
+  );
 }
