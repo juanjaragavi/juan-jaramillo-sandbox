@@ -1,14 +1,13 @@
-import { useState, useEffect } from 'react';
-import axios from 'axios';
-import { Fragment } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 
 export default function DomainStatusWidget() {
     const [domainStatus, setDomainStatus] = useState({});
     
     useEffect(() => {
-        // Fetch the health status of domains from the backend using axios
-        axios.get('https://api.juanjaramillo.tech/domains/')
-            .then(response => setDomainStatus(response.data));
+        // Fetch the health status of domains from the backend
+        fetch('https://api.juanjaramillo.tech/domains/')
+            .then(response => response.json())
+            .then(data => setDomainStatus(data));
     }, []);
     
     return (
